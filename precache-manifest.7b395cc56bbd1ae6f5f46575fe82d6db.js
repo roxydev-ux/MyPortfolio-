@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e9d0b6523183903ecdfa3a09ff0ba57",
+    "revision": "9f3158603d4cfe7f5fca68a0cf0922bb",
     "url": "/index.html"
   },
   {
-    "revision": "3addb6d153ea373e5cdf",
-    "url": "/static/css/main.044eedc1.chunk.css"
+    "revision": "8443a080c5ac467a231a",
+    "url": "/static/css/main.4c96da6e.chunk.css"
   },
   {
     "revision": "9eee67cf782a38d35aeb",
     "url": "/static/js/2.d6a534e5.chunk.js"
   },
   {
-    "revision": "3addb6d153ea373e5cdf",
+    "revision": "8443a080c5ac467a231a",
     "url": "/static/js/main.9a246444.chunk.js"
   },
   {
@@ -38,9 +38,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "74f7cdffc9b2c3f62771c7acac3f512d",
     "url": "/static/media/grey.74f7cdff.png"
-  },
-  {
-    "revision": "286c87cf2b62fab27f8c8e0ebf70c9fe",
-    "url": "/static/media/scenic_view_of_foggy_forest.286c87cf.jpeg"
   }
 ]);
