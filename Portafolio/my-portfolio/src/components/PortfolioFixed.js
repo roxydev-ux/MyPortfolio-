@@ -4,7 +4,7 @@ class PortfolioFixed extends Component {
     render() {
         return (
             <div className="portfolio-fixed">
-                <img alt='RocioChavoya' src="https://scontent.fgdl4-1.fna.fbcdn.net/v/t1.0-9/205315_344012635679395_1270711553_n.jpg?_nc_cat=106&_nc_ht=scontent.fgdl4-1.fna&oh=cf395308a084aef6349bc62ee9b1f195&oe=5D9FC059"/>
+                <img alt='RocioChavoya' src="https://avatars3.githubusercontent.com/u/47005635?s=400&u=16eeb3d38cb7f4f8a7122addade288771b7a4132&v=4"/>
                 <h1>Rocio Chavoya</h1>
             </div>
         )  
