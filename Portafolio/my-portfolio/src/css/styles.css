@@ -34,6 +34,33 @@ nav,
 section {
   display: block; }
 
+  .flex-footer {
+    padding: 0;
+    margin: 0;
+    border-style: dotted hidden hidden hidden;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-item {
+    padding: 5px;
+    list-style: none;
+    margin-top: 10px;
+  }
+  .liTitle {
+    font-size: 25px;
+    color: #5D26C1;
+  }
+
+  .flex-copy {
+    padding: 0;
+    margin: 0;
+    border-style: dotted hidden hidden hidden;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-between;
+  }
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -1516,7 +1543,9 @@ nav {
       text-align: left; } }
 
 .portfolio-fixed {
-  background: url("../images/scenic_view_of_foggy_forest.jpeg");
+  background: #59C173;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   display: flex;
   align-items: center;
@@ -1578,6 +1607,8 @@ header {
   text-align: center; }
   header h2 {
     margin: 0; }
+
+
 
 section {
   padding: 20px;
