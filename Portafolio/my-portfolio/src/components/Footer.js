@@ -6,7 +6,7 @@ class Footer extends Component {
             <section>
                 <footer className="flex-footer">
                     <ul className="footer-item">
-                        <li className="liTitle">My favorite projects</li>
+                        <li className="liTitle">My best projects</li>
                         <li >GifOs</li>
                         <li >VoxBuuzz</li>
                         <li >ShopyHack</li>

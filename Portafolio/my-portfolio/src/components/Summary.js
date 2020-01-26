@@ -4,17 +4,10 @@ class Summary extends Component {
     render() {
         return (
             <section>
-                <h4>Resumen</h4>
-                <p>Hola! Soy Rocio, desarrolladora Front End y 
-                    Visual merchandising de profesión. Me apasiona
-                    la tecnologia, el comportamiento humano y la 
-                    interacción entre ambos.
-                    De manera autodidacta he estudiado UX / UI y
-                    CRO.
-                    Estas mirando mi sitio ¿eh? eso es genial. Este sitio 
-                    utiliza React y Firebase como base de datos.
-                    Si te apetece un chat escribeme :)
+                <h4>Resume</h4>
+                <p>Hi, my name is Rocio, I'm Frontend Developer. My skills include digital marketing management. I like to use Javascript, I have used ReactJs and I am studying Angular. I like to keep up with technology. My next step is to start with Kubernetes.
                 </p>
+                <a href="https://www.linkedin.com/in/rociochavoya/" class="button">Hire me</a> 
             </section>
         )  
     }

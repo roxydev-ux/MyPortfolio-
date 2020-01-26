@@ -61,6 +61,20 @@ section {
     -webkit-flex-flow: row wrap;
     justify-content: space-between;
   }
+/* Button */
+.button {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow:hidden;
+  transition: .3s;
+}
+
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
